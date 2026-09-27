@@ -1,0 +1,144 @@
+
+*{
+    box-sizing: border-box;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(92, 28, 28);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color: #ffffff;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    background-image: url("https://thumbs.dreamstime.com/b/abstract-colorful-background-colorful-candies-background-lot-copy-space-text-many-multicolored-candy-sweets-closeup-141775429.jpg?w=992");
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 40px;
+    margin: 25px;
+}
+
+
+header .logo{
+    border-radius: 50%;
+    width: 10%;
+    height: auto;
+/*     width: 100px;
+    height: auto; */
+    border-radius: 50%;
+}
+
+
+
+header h1{
+    color: #ffffff;
+    text-shadow: rgba(0, 0green, 0blue, 0.7);
+    font-size: 45px;
+    align-content: flex-start;
+}
+
+.navigation {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navigation li{
+    display: inline;
+    border: #ffffff;
+}
+
+.navigation a{
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0green, 0blue, 0.7);
+}
+
+.navigation a:hover{
+    color: greenyellow;
+    text-shadow: #ffffff;
+}
+
+h2, h3, h4{
+    color: #ffffff;
+    text-align: center;
+}
+
+#staffHeading, #missionHeading, #sweetsHeading{
+    
+    margin: 20px;
+    padding-top: 20px;
+    
+    color: #ffffff;
+    width: 100%;
+    text-decoration: underline;
+
+}
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px ;
+    
+    align-content: center;
+    
+}
+
+.sweets{
+
+}
+
+.sweets img{
+    height: 70%;
+    padding: 10px;
+
+
+}
+
+.staff{
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-items: center; */
+    height: 400px;
+    width: 100%;
+   
+    margin: 20px;
+    padding: 10px;
+    
+    
+    
+}
+
+.staff img{
+    display: flexbox;
+    height: 60%;
+    padding: 10px;
+    
+    
+    
+    
+}
+
